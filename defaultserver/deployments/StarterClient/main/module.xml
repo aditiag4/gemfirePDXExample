@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module xmlns="urn:jboss:module:1.9" name="StarterClient">
+    <resources>
+        <resource-root path="/Users/kalyanku/Documents/Workspace/StarterClient/defaultserver/deployments/StarterClient/main/lib/StarterClient-0.0.1-SNAPSHOT-plain.jar"/>
+    </resources>
+    <dependencies>
+        <module export="false" name="default_application" optional="false" services="import"/>
+        <module export="false" name="gemfire" optional="false" services="import"/>
+        <module export="false" name="java.se" optional="false" services="import"/>
+    </dependencies>
+</module>
